@@ -1,0 +1,133 @@
+{
+  "lang": "RU",
+  "alphabet": [
+    {
+      "title": "A",
+      "value": 0
+    },
+    {
+      "title": "Б",
+      "value": 0
+    },
+    {
+      "title": "В",
+      "value": 0
+    },
+    {
+      "title": "Г",
+      "value": 0
+    },
+    {
+      "title": "Д",
+      "value": 0
+    },
+    {
+      "title": "Е",
+      "value": 0
+    },
+    {
+      "title": "Ё",
+      "value": 0
+    },
+    {
+      "title": "Ж",
+      "value": 0
+    },
+    {
+      "title": "З",
+      "value": 0
+    },
+    {
+      "title": "И",
+      "value": 0
+    },
+    {
+      "title": "К",
+      "value": 0
+    },
+    {
+      "title": "Л",
+      "value": 0
+    },
+    {
+      "title": "М",
+      "value": 0
+    },
+    {
+      "title": "Н",
+      "value": 0
+    },
+    {
+      "title": "О",
+      "value": 0
+    },
+    {
+      "title": "П",
+      "value": 0
+    },
+    {
+      "title": "Р",
+      "value": 0
+    },
+    {
+      "title": "С",
+      "value": 0
+    },
+    {
+      "title": "Т",
+      "value": 0
+    },
+    {
+      "title": "У",
+      "value": 0
+    },
+    {
+      "title": "Ф",
+      "value": 0
+    },
+    {
+      "title": "Х",
+      "value": 0
+    },
+    {
+      "title": "Ц",
+      "value": 0
+    },
+    {
+      "title": "Ч",
+      "value": 0
+    },
+    {
+      "title": "Ш",
+      "value": 0
+    },
+    {
+      "title": "Щ",
+      "value": 0
+    },
+    {
+      "title": "Ъ",
+      "value": 0
+    },
+    {
+      "title": "Ы",
+      "value": 0
+    },
+    {
+      "title": "Ь",
+      "value": 0
+    },
+    {
+      "title": "Э",
+      "value": 0
+    },
+    {
+      "title": "Ю",
+      "value": 0
+    },
+    {
+      "title": "Я",
+      "value": 0
+    }
+  ]
+}

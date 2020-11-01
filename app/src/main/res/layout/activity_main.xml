@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/actMain_pause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="Пауза"
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="100dp" />
+
+    <TextView
+        android:id="@+id/actMain_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/actMain_pause_button"
+        android:layout_toRightOf="@+id/actMain_pause_button"
+        android:text="2:00"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/actMain_score_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/actMain_clearReroll_button"
+        android:layout_toLeftOf="@+id/actMain_clearReroll_button"
+        android:text="322"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/actMain_clearReroll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="сброс/удалить"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp"
+        android:paddingTop="100dp"
+        android:paddingRight="100dp"
+        android:id="@+id/titleWindowTEMP">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/actMain_inputString_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@+id/actMain_accept_button"
+            android:layout_toLeftOf="@+id/actMain_accept_button"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/actMain_accept_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:onClick="searchWord"
+            android:text="@string/actMain_Accept_Button"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleWindowTEMP">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</RelativeLayout>
